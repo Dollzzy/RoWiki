@@ -317,6 +317,7 @@ input {
   align-items: start;
   gap: 5px;
   flex-direction: column;
+  list-style-type: none;
 }
 .rer {
   width: auto;
