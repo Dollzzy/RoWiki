@@ -36,6 +36,8 @@
     align-items: center;
 }
 .element {
+    position: absolute;
+    top: 30%;
     width: clamp(300px,90%,500px);
     height: clamp(300px,90%,300px);
     background-color: transparent;
@@ -45,6 +47,12 @@
     flex-direction: column;
     flex-wrap: wrap;
     gap: 10px;
+}
+.ver {
+    font-size: 27px;
+    background:linear-gradient(90deg , #fadb61 0% ,#ff006a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .titlu {
     width: 100%;
